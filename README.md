@@ -97,7 +97,7 @@ Fore.MAGENTA  # Arte ASCII e elementos decorativos
 
 #### Banner Principal
 ```
-███████╗███╗   ███╗ █████╗ ███████╗██╗  ██╗    ██████╗ ██╗   ██╗██╗██╗     ██████╗ ███████╗██████╗ 
+███████╗███╗   ███╗ █████╗ ███████╗██╗  ██╗    ██████╗ ██╗   ██╗██╗██╗     ██████╗ ███████╗██████╗
 ██╔════╝████╗ ████║██╔══██╗██╔════╝██║  ██║    ██╔══██╗██║   ██║██║██║     ██╔══██╗██╔════╝██╔══██╗
 ███████╗██╔████╔██║███████║███████╗███████║    ██████╔╝██║   ██║██║██║     ██║  ██║█████╗  ██████╔╝
 ╚════██║██║╚██╔╝██║██╔══██║╚════██║██╔══██║    ██╔══██╗██║   ██║██║██║     ██║  ██║██╔══╝  ██╔══██╗
@@ -275,6 +275,60 @@ python -m smashbuilder
 pip install -e .
 smashbuilder calc quick
 ```
+
+## 📚 Documentação Completa
+
+### 📖 **Guias do Usuário**
+- **[GUIA_COMPLETO_USUARIO.md](GUIA_COMPLETO_USUARIO.md)** - Tutorial completo de uso
+- **[INSTALACAO_E_USO.md](INSTALACAO_E_USO.md)** - Guia de instalação e primeiros passos
+- **[EXEMPLOS_PRATICOS.md](EXEMPLOS_PRATICOS.md)** - Exemplos práticos e casos de uso
+
+### 🔧 **Documentação Técnica**
+- **[EXPANDINDO_BASE_DADOS.md](EXPANDINDO_BASE_DADOS.md)** - Como adicionar campeões e itens
+- **[ASIMOVLeadCaptor_DOCUMENTACAO_COMPLETA.md](ASIMOVLeadCaptor_DOCUMENTACAO_COMPLETA.md)** - Documentação de referência
+
+### ⚠️ **IMPORTANTE: Base de Dados Limitada**
+
+A versão atual contém apenas:
+- **10 campeões** (Kai'Sa, Jinx, Vayne, Yasuo, Zed, Ahri, Garen, Darius, Lux, Thresh)
+- **20 itens** básicos
+- **Dados do Patch 14.1** (exemplo)
+
+**Para uso completo, consulte [EXPANDINDO_BASE_DADOS.md](EXPANDINDO_BASE_DADOS.md) para adicionar mais campeões e itens.**
+
+## 🎯 Início Rápido
+
+### 1. **Teste o Sistema**
+```bash
+python test_system.py
+```
+
+### 2. **Interface Cyberpunk**
+```bash
+python start_cyberpunk.py
+```
+
+### 3. **Calculadora Rápida CLI**
+```bash
+python -m cli.app quick
+```
+
+### 4. **Exemplo Prático**
+```bash
+python -m cli.app build --champ "Kai'Sa" --level 11 --items "Infinity Edge,Phantom Dancer" --target "bruiser"
+```
+
+## 🔥 Recursos Principais
+
+✅ **Interface cyberpunk imersiva** com animações e cores neon
+✅ **Cálculos matemáticos precisos** com fórmulas validadas
+✅ **10 campeões** com stats base e crescimento
+✅ **20+ itens** com modificadores flat e percentuais
+✅ **6 alvos predefinidos** para análise de DPS
+✅ **Export CSV/JSON/TXT** para análise externa
+✅ **Comparação de builds** lado a lado
+✅ **Tabelas por nível** para power spikes
+✅ **Sistema modular** para fácil expansão
 
 **🔥 Bem-vindo ao futuro dos cálculos de build! 🔥**
 
