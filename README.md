@@ -14,10 +14,7 @@
     SmashBuilder é uma calculadora avançada de builds para League of Legends com uma interface de terminal com estética cyberpunk. Calcule atributos finais, DPS estimado e compare builds, com exportação em CSV/JSON. Execute via launcher ou CLI.
   </p>
 </div>
-
-
-
----
+</div>
 
 ### Início Rápido
 
