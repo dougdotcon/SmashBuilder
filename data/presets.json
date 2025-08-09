@@ -1,0 +1,285 @@
+{
+  "targets": {
+    "fragile": {
+      "name": "Frágil",
+      "hp": 1800,
+      "armor": 30,
+      "mr": 30
+    },
+    "adc": {
+      "name": "ADC",
+      "hp": 2000,
+      "armor": 70,
+      "mr": 30
+    },
+    "mage": {
+      "name": "Mago",
+      "hp": 1900,
+      "armor": 40,
+      "mr": 40
+    },
+    "bruiser": {
+      "name": "Bruiser",
+      "hp": 2800,
+      "armor": 120,
+      "mr": 60
+    },
+    "tank": {
+      "name": "Tank",
+      "hp": 3500,
+      "armor": 200,
+      "mr": 120
+    },
+    "dummy": {
+      "name": "Dummy",
+      "hp": 1000,
+      "armor": 0,
+      "mr": 0
+    }
+  },
+  "runes": {
+    "ad_carry": {
+      "name": "AD Carry",
+      "description": "Runas focadas em dano físico",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 9,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "attack_speed",
+          "value": 10,
+          "modifier_type": "percent"
+        },
+        {
+          "stat": "armor",
+          "value": 6,
+          "modifier_type": "flat"
+        }
+      ]
+    },
+    "ap_carry": {
+      "name": "AP Carry",
+      "description": "Runas focadas em dano mágico",
+      "modifiers": [
+        {
+          "stat": "ability_power",
+          "value": 15,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "magic_resistance",
+          "value": 8,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "health",
+          "value": 65,
+          "modifier_type": "flat"
+        }
+      ]
+    },
+    "tank": {
+      "name": "Tank",
+      "description": "Runas focadas em resistência",
+      "modifiers": [
+        {
+          "stat": "health",
+          "value": 120,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "armor",
+          "value": 12,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "magic_resistance",
+          "value": 8,
+          "modifier_type": "flat"
+        }
+      ]
+    },
+    "assassin": {
+      "name": "Assassin",
+      "description": "Runas focadas em burst",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 12,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "lethality",
+          "value": 6,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "health",
+          "value": 45,
+          "modifier_type": "flat"
+        }
+      ]
+    },
+    "support": {
+      "name": "Support",
+      "description": "Runas focadas em utilidade",
+      "modifiers": [
+        {
+          "stat": "health",
+          "value": 90,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "armor",
+          "value": 8,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "magic_resistance",
+          "value": 6,
+          "modifier_type": "flat"
+        }
+      ]
+    }
+  },
+  "buffs": {
+    "elixir_of_wrath": {
+      "name": "Elixir of Wrath",
+      "description": "Elixir de Ira (+30 AD)",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 30,
+          "modifier_type": "flat"
+        }
+      ]
+    },
+    "elixir_of_sorcery": {
+      "name": "Elixir of Sorcery",
+      "description": "Elixir de Feitiçaria (+50 AP)",
+      "modifiers": [
+        {
+          "stat": "ability_power",
+          "value": 50,
+          "modifier_type": "flat"
+        }
+      ]
+    },
+    "baron_buff": {
+      "name": "Baron Buff",
+      "description": "Buff do Barão (+40 AD/AP)",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 40,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "ability_power",
+          "value": 40,
+          "modifier_type": "flat"
+        }
+      ]
+    },
+    "infernal_dragon": {
+      "name": "Infernal Dragon",
+      "description": "Dragão Infernal (+8% AD/AP)",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 8,
+          "modifier_type": "percent"
+        },
+        {
+          "stat": "ability_power",
+          "value": 8,
+          "modifier_type": "percent"
+        }
+      ]
+    },
+    "mountain_dragon": {
+      "name": "Mountain Dragon",
+      "description": "Dragão da Montanha (+6% Armor/MR)",
+      "modifiers": [
+        {
+          "stat": "armor",
+          "value": 6,
+          "modifier_type": "percent"
+        },
+        {
+          "stat": "magic_resistance",
+          "value": 6,
+          "modifier_type": "percent"
+        }
+      ]
+    },
+    "ocean_dragon": {
+      "name": "Ocean Dragon",
+      "description": "Dragão do Oceano (+2.5% HP)",
+      "modifiers": [
+        {
+          "stat": "health",
+          "value": 2.5,
+          "modifier_type": "percent"
+        }
+      ]
+    },
+    "cloud_dragon": {
+      "name": "Cloud Dragon",
+      "description": "Dragão das Nuvens (+3% MS)",
+      "modifiers": [
+        {
+          "stat": "movement_speed",
+          "value": 3,
+          "modifier_type": "percent"
+        }
+      ]
+    }
+  },
+  "build_templates": {
+    "crit_adc": {
+      "name": "ADC Crítico",
+      "description": "Build padrão de ADC com foco em crítico",
+      "items": [
+        "Kraken Slayer",
+        "Berserker's Greaves",
+        "Infinity Edge",
+        "Phantom Dancer",
+        "Lord Dominik's Regards",
+        "Bloodthirster"
+      ],
+      "runes": "ad_carry",
+      "target": "bruiser"
+    },
+    "on_hit_adc": {
+      "name": "ADC On-Hit",
+      "description": "Build de ADC com foco em on-hit",
+      "items": [
+        "Kraken Slayer",
+        "Berserker's Greaves",
+        "Blade of the Ruined King",
+        "Wit's End",
+        "Runaan's Hurricane",
+        "Guardian Angel"
+      ],
+      "runes": "ad_carry",
+      "target": "tank"
+    },
+    "burst_mage": {
+      "name": "Mago Burst",
+      "description": "Build de mago com foco em burst",
+      "items": [
+        "Luden's Tempest",
+        "Sorcerer's Shoes",
+        "Rabadon's Deathcap",
+        "Zhonya's Hourglass",
+        "Void Staff",
+        "Morellonomicon"
+      ],
+      "runes": "ap_carry",
+      "target": "fragile"
+    }
+  }
+}

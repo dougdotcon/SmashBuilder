@@ -1,0 +1,344 @@
+{
+  "items": [
+    {
+      "name": "Infinity Edge",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 70,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "critical_chance",
+          "value": 20,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 3400,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Phantom Dancer",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 20,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "attack_speed",
+          "value": 25,
+          "modifier_type": "percent"
+        },
+        {
+          "stat": "critical_chance",
+          "value": 20,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "movement_speed",
+          "value": 7,
+          "modifier_type": "percent"
+        }
+      ],
+      "cost": 2600,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Kraken Slayer",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 65,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "attack_speed",
+          "value": 25,
+          "modifier_type": "percent"
+        },
+        {
+          "stat": "critical_chance",
+          "value": 20,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 3400,
+      "unique": true,
+      "mythic": true
+    },
+    {
+      "name": "Galeforce",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 60,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "attack_speed",
+          "value": 20,
+          "modifier_type": "percent"
+        },
+        {
+          "stat": "critical_chance",
+          "value": 20,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 3400,
+      "unique": true,
+      "mythic": true
+    },
+    {
+      "name": "Bloodthirster",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 80,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 3400,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Rapid Firecannon",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 20,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "attack_speed",
+          "value": 25,
+          "modifier_type": "percent"
+        },
+        {
+          "stat": "critical_chance",
+          "value": 20,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 2600,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Lord Dominik's Regards",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 35,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "critical_chance",
+          "value": 20,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 3000,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Berserker's Greaves",
+      "modifiers": [
+        {
+          "stat": "attack_speed",
+          "value": 35,
+          "modifier_type": "percent"
+        },
+        {
+          "stat": "movement_speed",
+          "value": 45,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 1100,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "B.F. Sword",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 40,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 1300,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Pickaxe",
+      "modifiers": [
+        {
+          "stat": "attack_damage",
+          "value": 25,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 875,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Dagger",
+      "modifiers": [
+        {
+          "stat": "attack_speed",
+          "value": 12,
+          "modifier_type": "percent"
+        }
+      ],
+      "cost": 300,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Cloak of Agility",
+      "modifiers": [
+        {
+          "stat": "critical_chance",
+          "value": 15,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 600,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Chain Vest",
+      "modifiers": [
+        {
+          "stat": "armor",
+          "value": 40,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 800,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Negatron Cloak",
+      "modifiers": [
+        {
+          "stat": "magic_resistance",
+          "value": 40,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 720,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Ruby Crystal",
+      "modifiers": [
+        {
+          "stat": "health",
+          "value": 150,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 400,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Rabadon's Deathcap",
+      "modifiers": [
+        {
+          "stat": "ability_power",
+          "value": 120,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "ability_power",
+          "value": 35,
+          "modifier_type": "percent"
+        }
+      ],
+      "cost": 3600,
+      "unique": true,
+      "mythic": false
+    },
+    {
+      "name": "Luden's Tempest",
+      "modifiers": [
+        {
+          "stat": "ability_power",
+          "value": 80,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "mana",
+          "value": 600,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 3200,
+      "unique": true,
+      "mythic": true
+    },
+    {
+      "name": "Zhonya's Hourglass",
+      "modifiers": [
+        {
+          "stat": "ability_power",
+          "value": 80,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "armor",
+          "value": 45,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 2600,
+      "unique": true,
+      "mythic": false
+    },
+    {
+      "name": "Void Staff",
+      "modifiers": [
+        {
+          "stat": "ability_power",
+          "value": 70,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 2700,
+      "unique": false,
+      "mythic": false
+    },
+    {
+      "name": "Sunfire Aegis",
+      "modifiers": [
+        {
+          "stat": "health",
+          "value": 450,
+          "modifier_type": "flat"
+        },
+        {
+          "stat": "armor",
+          "value": 60,
+          "modifier_type": "flat"
+        }
+      ],
+      "cost": 3200,
+      "unique": true,
+      "mythic": true
+    }
+  ]
+}
