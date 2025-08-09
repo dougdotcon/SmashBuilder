@@ -1,6 +1,6 @@
 # 🔥 SmashBuilder - Calculadora de Builds para League of Legends 🔥
 
-![SmashBuilder Logo](logo.png)
+<img src="logo.png" alt="SmashBuilder" width="160" height="160" style="border-radius: 24px; margin: 30px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
 
 ## 📋 Visão Geral do Projeto
 
@@ -282,6 +282,7 @@ smashbuilder calc quick
 - **[GUIA_COMPLETO_USUARIO.md](GUIA_COMPLETO_USUARIO.md)** - Tutorial completo de uso
 - **[INSTALACAO_E_USO.md](INSTALACAO_E_USO.md)** - Guia de instalação e primeiros passos
 - **[EXEMPLOS_PRATICOS.md](EXEMPLOS_PRATICOS.md)** - Exemplos práticos e casos de uso
+- **[NOVAS_FUNCIONALIDADES.md](NOVAS_FUNCIONALIDADES.md)** - 🆕 Funcionalidades recém-implementadas
 
 ### 🔧 **Documentação Técnica**
 - **[EXPANDINDO_BASE_DADOS.md](EXPANDINDO_BASE_DADOS.md)** - Como adicionar campeões e itens
@@ -313,21 +314,39 @@ python start_cyberpunk.py
 python -m cli.app quick
 ```
 
-### 4. **Exemplo Prático**
+### 4. **Exemplo Prático (Seleção por Número)**
 ```bash
-python -m cli.app build --champ "Kai'Sa" --level 11 --items "Infinity Edge,Phantom Dancer" --target "bruiser"
+# Calculadora rápida com seleção numérica
+python -m cli.app quick
+
+# Exemplo: Escolher Kai'Sa (1), Itens (1,3,5), Alvo Bruiser (4)
+```
+
+### 5. **Gerenciar Dados**
+```bash
+# Adicionar novo campeão
+python -m cli.app add-champion
+
+# Adicionar novo item
+python -m cli.app add-item
+
+# Comparação interativa
+python -m cli.app compare-interactive
 ```
 
 ## 🔥 Recursos Principais
 
 ✅ **Interface cyberpunk imersiva** com animações e cores neon
+✅ **Seleção por número** para campeões, itens e alvos (mais rápido!)
 ✅ **Cálculos matemáticos precisos** com fórmulas validadas
 ✅ **10 campeões** com stats base e crescimento
 ✅ **20+ itens** com modificadores flat e percentuais
 ✅ **6 alvos predefinidos** para análise de DPS
+✅ **Gerenciamento de dados** - adicione campeões e itens pelo terminal
+✅ **Comparação interativa** de builds em tempo real
 ✅ **Export CSV/JSON/TXT** para análise externa
-✅ **Comparação de builds** lado a lado
-✅ **Tabelas por nível** para power spikes
+✅ **Validação robusta** com regras de negócio (apenas 1 mítico)
+✅ **Backup automático** dos dados
 ✅ **Sistema modular** para fácil expansão
 
 **🔥 Bem-vindo ao futuro dos cálculos de build! 🔥**
