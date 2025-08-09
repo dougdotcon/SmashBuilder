@@ -15,7 +15,7 @@
   </p>
 </div>
 
-</div>
+
 
 ---
 
@@ -26,10 +26,6 @@ python start_cyberpunk.py
 # ou
 python -m cli.app quick
 ```
-
-## 📋 Navegação Rápida
-
-<div align="center">
 ## 📋 Visão Geral do Projeto
 
 O **SmashBuilder** é uma calculadora avançada de builds para League of Legends com interface terminal cyberpunk. Este projeto permite que jogadores calculem rapidamente atributos finais, DPS estimado e comparem builds de forma eficiente, tudo através de uma experiência terminal futurística e imersiva.
