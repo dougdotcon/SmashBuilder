@@ -1,7 +1,35 @@
-# 🔥 SmashBuilder - Calculadora de Builds para League of Legends 🔥
+<div align="center">
 
-<img src="logo.png" alt="SmashBuilder" width="160" height="160" style="border-radius: 24px; margin: 30px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
+<img src="logo.png" alt="SmashBuilder Logo" width="160" height="160" style="border-radius: 24px; margin: 30px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
 
+## SmashBuilder — Calculadora de Builds para League of Legends
+
+[![Status](https://img.shields.io/badge/Status-Beta-green?style=for-the-badge)](#)
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![License](https://img.shields.io/badge/license-MIT-667eea.svg?style=for-the-badge&labelColor=1a202c)](https://opensource.org/licenses/MIT)
+[![Interface](https://img.shields.io/badge/Interface-CLI_Terminal-5865f2?style=for-the-badge)](#)
+
+<div style="margin: 20px 0; max-width: 85%;">
+  <p style="font-size: 1.05em; color: #4a5568; margin: 0;">
+    SmashBuilder é uma calculadora avançada de builds para League of Legends com uma interface de terminal com estética cyberpunk. Calcule atributos finais, DPS estimado e compare builds, com exportação em CSV/JSON. Execute via launcher ou CLI.
+  </p>
+</div>
+
+</div>
+
+---
+
+### Início Rápido
+
+```bash
+python start_cyberpunk.py
+# ou
+python -m cli.app quick
+```
+
+## 📋 Navegação Rápida
+
+<div align="center">
 ## 📋 Visão Geral do Projeto
 
 O **SmashBuilder** é uma calculadora avançada de builds para League of Legends com interface terminal cyberpunk. Este projeto permite que jogadores calculem rapidamente atributos finais, DPS estimado e comparem builds de forma eficiente, tudo através de uma experiência terminal futurística e imersiva.
